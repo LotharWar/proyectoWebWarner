@@ -1,12 +1,14 @@
 html{
     font-family: 'Nunito Sans', sans-serif;
 }
+
 .cabeza{
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     height: 55px;
+    text-align: center;
     
 }
 .contenedor{
@@ -24,10 +26,23 @@ html{
     background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     justify-content: left;
     align-items: flex-start;
+    display: inline-block;
+    width: 15%;
+}
+a{
+    font-size: 30px;
+    color: azure;
+}
+p{
+    color: azure;
 }
 .centro{
     display: inline-block;
-    text-align: center;
+    width: 85%;
+    
+}
+.imgpro{
+    width: 100%;
 }
 /* codigo de la pagina precios */
 .container{
@@ -64,3 +79,11 @@ td{
     border:solid 2px;
 }
 /*fin del codigo de la pagina precios */
+footer{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 50px;
+    text-align: center;
+    border: none;
+}
